@@ -25,7 +25,7 @@ const GetNewFactHandler = {
     return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
   },
   handle(handlerInput) {
-    const speakOutput = 'Fala aí meu queridão, tudo na paz? Como ta essa força aí?';
+    const speakOutput = 'Fala aí meu queridão, tudoasas na paz? Como ta essa força aí?';
     return handlerInput.responseBuilder
       .speak(speakOutput)
       .reprompt(speakOutput)
