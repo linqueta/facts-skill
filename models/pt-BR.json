@@ -1,0 +1,34 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "linqueta da bahia",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "FactsConsultIntent",
+          "slots": [],
+          "samples": [
+            "me diga um número"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}

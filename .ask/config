@@ -1,0 +1,33 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.fa74410f-8bdd-4582-892c-187e1841faea",
+      "was_cloned": false,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "1e5a8537a4ab25fd38c8e2509bb4a4a4"
+        },
+        "interactionModel": {
+          "pt-BR": {
+            "eTag": "eb7bb78376f58d175c7932a54b23802e"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:887768003597:function:serverlessrepo-alexa-skil-alexaskillskitnodejsfact-QFHYM0Q6YNW7",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/us-east-1_serverlessrepo-alexa-skil-alexaskillskitnodejsfact-QFHYM0Q6YNW7",
+            "functionName": "serverlessrepo-alexa-skil-alexaskillskitnodejsfact-QFHYM0Q6YNW7",
+            "handler": "index.handler",
+            "revisionId": "3bf355be-c2c9-4940-a445-1e59c2a6b08f",
+            "runtime": "nodejs10.x"
+          }
+        ]
+      }
+    }
+  }
+}

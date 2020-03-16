@@ -1,0 +1,21 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "serverlessrepo-alexa-skil-alexaskillskitnodejsfact-QFHYM0Q6YNW7",
+          "sourceDir": "lambda/us-east-1_serverlessrepo-alexa-skil-alexaskillskitnodejsfact-QFHYM0Q6YNW7"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "name": "facts-skill"
+        }
+      }
+    }
+  }
+}
